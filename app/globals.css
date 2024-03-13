@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  min-height: 100vh;
+  display: flex;
+  background: #fca311;
+  font-family: "League Spartan", sans-serif;
+}
+
+main{
+  margin-top: 90px !important;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+.bg-blue{
+  background: #14213d;
+}
+
+.bg-green{
+  background: #4BD78C;
+}
