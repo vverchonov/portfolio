@@ -24,6 +24,10 @@ footer{
   background: #14213d;
 }
 
+.bg-orange{
+  background: #fca311 !important;
+}
+
 .bg-green{
   background: #4BD78C;
 }
