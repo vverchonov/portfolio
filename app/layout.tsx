@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import Background from "./components/background";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Viacheslav's Portfolio",
@@ -39,7 +40,7 @@ export default function RootLayout({
         <Background />
         {children}
         <Footer />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
         <ToastContainer />
       </body>
     </html>

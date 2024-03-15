@@ -12,7 +12,7 @@ export default function AboutMe() {
       <p className="text-xl mb-4">
         I am Viacheslav (Slava) Verchonov, a results-driven Software Developer
         (3+ years) based in Toronto, Ontario, with a passion for crafting
-        innovative and user-centric solutions. Armed with a Bachelor's degree in
+        innovative and user-centric solutions. Armed with a Bachelors degree in
         Computer Programmer Analyst from Fanshawe College, my career journey
         showcases proficiency in a diverse range of technologies. As a
         detail-oriented problem solver, I thrive in collaborative environments,
