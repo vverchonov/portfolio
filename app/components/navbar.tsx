@@ -5,15 +5,40 @@ const Navbar = () => {
   return (
     <nav className="bg-blue fixed w-full z-20 top-0 start-0">
       <div className="flex flex-wrap items-center justify-between p-4">
-        <a
-          href="https://flowbite.com/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
+        <Link
+          className="flex items-center space-x-3 rtl:space-x-reverse scale-hover text-white text-2xl"
+          href="/"
         >
-          <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-            VV
-          </span>
-        </a>
-        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          VViacheslav
+        </Link>
+
+        <div className="flex md:order-2 space-x-3 items-center md:space-x-0 rtl:space-x-reverse">
+          <div className="flex gap-3 justify-center">
+            <Link
+              className="scale-hover text-white text-2xl"
+              href="https://www.linkedin.com/in/viacheslav-verchonov/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="devicon-linkedin-plain"></i>
+            </Link>
+            <Link
+              className="scale-hover text-white text-2xl"
+              href="https://drive.google.com/file/d/10iQh9-wnpBgQxl3FbOhk0E6Tuw--4pAi/view?usp=sharing"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="devicon-google-plain"></i>
+            </Link>
+            <Link
+              className="scale-hover text-white text-2xl"
+              href="https://github.com/vverchonov"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="devicon-github-original"></i>
+            </Link>
+          </div>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -53,7 +78,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="block text-white text-2xl scale-hover">
+              <Link
+                href="/contact"
+                className="block text-white text-2xl scale-hover"
+              >
                 Contact Me
               </Link>
             </li>

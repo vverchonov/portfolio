@@ -1,10 +1,14 @@
 type Props = {
   text: string;
+  onClick?: any;
 };
 
 export default function Button(props: Props) {
   return (
-    <button className="bg-blue hover:text-black text-white py-2 px-4 rounded">
+    <button
+      onClick={props.onClick && props.onClick}
+      className="bg-blue hover:text-black text-white py-2 px-4 rounded"
+    >
       {props.text}
     </button>
   );

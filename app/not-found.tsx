@@ -8,7 +8,9 @@ export default function NotFound() {
     <PageHolder>
       <div className="div404">404</div>
       <div className="text-center text-xl">Page cannot be found</div>
-      <div className="text-center text-xl">You can type any gibberish URL and end up here :)</div>
+      <div className="text-center text-xl">
+        You can type any gibberish URL and end up here :)
+      </div>
       <Link href="/">
         <Button text="Return to Home page" />
       </Link>

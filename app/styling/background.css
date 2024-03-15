@@ -1,0 +1,28 @@
+.background{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: 0 !important;
+
+    .items-holder{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+        .marquee{
+            z-index: 0 !important;
+            display: flex;
+            gap:1vh;
+        }
+
+        .item{
+            opacity: 0.5;
+            color: white;
+            font-size: 9.5vh;
+            z-index: 0;
+            position: relative;
+        }
+    }
+}

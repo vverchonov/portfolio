@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "./styling/animations.css"
+import "./styling/animations.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
+import Background from "./components/background";
 
 export const metadata: Metadata = {
   title: "Viacheslav's Portfolio",
@@ -33,9 +36,11 @@ export default function RootLayout({
       </head>
       <body className="flex-col">
         <Navbar />
+        <Background />
         {children}
         <Footer />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+        <ToastContainer />
       </body>
     </html>
   );
