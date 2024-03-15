@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue fixed w-full z-20 top-0 start-0">
+    <nav className="max-z bg-blue fixed w-full z-20 top-0 start-0">
       <div className="flex flex-wrap items-center justify-between p-4">
         <Link
           className="flex items-center space-x-3 rtl:space-x-reverse scale-hover text-white text-2xl"

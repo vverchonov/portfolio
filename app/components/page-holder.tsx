@@ -8,8 +8,12 @@ export default function PageHolder({
 }>) {
   return (
     <MotionConfig transition={{ duration: 1 }}>
-      <motion.div style={{zIndex:2147483647}} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <main className="m-auto w-11/12 md:w-6/12 bg-white mb-3 rounded-lg p-4 z-50">
+      <motion.div
+        className="pre-max-z top-margin"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+      >
+        <main className="m-auto w-11/12 md:w-6/12 bg-white mb-3 rounded-lg p-4">
           {children}
         </main>
       </motion.div>

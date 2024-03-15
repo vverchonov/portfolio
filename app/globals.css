@@ -10,7 +10,7 @@ body{
   font-family: "League Spartan", sans-serif;
 }
 
-main{
+.top-margin{
   margin-top: 90px !important;
 }
 
@@ -30,4 +30,12 @@ footer{
 
 .bg-green{
   background: #4BD78C;
+}
+
+.max-z{
+  z-index: 2147483647 !important;
+}
+
+.pre-max-z{
+  z-index: 1000000;
 }

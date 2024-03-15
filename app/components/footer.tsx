@@ -3,7 +3,7 @@ import CopyEmail from "../contact/copy-email";
 
 export default function Footer() {
   return (
-    <footer className="bg-blue p-4 flex flex-col gap-3 justify-center text-2xl">
+    <footer className=" max-z bg-blue p-4 flex flex-col gap-3 justify-center text-2xl">
       <div className="flex gap-3 justify-center">
         <Link
           className="scale-hover"
