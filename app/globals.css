@@ -32,8 +32,12 @@ footer{
   background: #4BD78C;
 }
 
-.max-z{
+.m-z{
   z-index: 2147483647 !important;
+}
+
+.max-z{
+  z-index: 2000000 !important;
 }
 
 .pre-max-z{
