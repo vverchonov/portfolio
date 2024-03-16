@@ -26,7 +26,7 @@ export default function ContactForm() {
     e.preventDefault();
     emailjs
       .send(
-        "13423" as string,
+        process.env.NEXT_PUBLIC_EMAIL_JS_ID as string,
         process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID as string,
         {
           email: email,
