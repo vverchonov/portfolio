@@ -14,16 +14,14 @@ const words = [
 export default function Background() {
   const getWords = () => {
     return words.map((word, index) => {
-      const direction = useMemo(() => {
-        return index % 2 === 0 ? "left" : "right";
-      }, [index]);
-
+      const direction = index % 2 === 0 ? "left" : "right";
+      const speed = Math.floor(Math.random() * 50 + 20);
       return (
         <Marquee
           className="marquee"
           key={word}
           direction={direction}
-          speed={Math.floor(Math.random() * 50 + 20)}
+          speed={speed}
         >
           <p className="item">{word}</p>
         </Marquee>
