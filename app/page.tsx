@@ -17,12 +17,12 @@ export default function AboutMe() {
         showcases proficiency in a diverse range of technologies.
       </p>
       <p className="text-xl mb-4">
-      As a
-        detail-oriented problem solver, I thrive in collaborative environments,
-        consistently delivering user-friendly and scalable web applications.
-        Whether fixing over 300 client-reported bugs, implementing cutting-edge
-        features, or ensuring SOC2 Compliance, my commitment to high standards,
-        adaptability, and effective communication defines my professional ethos.
+        As a detail-oriented problem solver, I thrive in collaborative
+        environments, consistently delivering user-friendly and scalable web
+        applications. Whether fixing over 300 client-reported bugs, implementing
+        cutting-edge features, or ensuring SOC2 Compliance, my commitment to
+        high standards, adaptability, and effective communication defines my
+        professional ethos.
       </p>
       <div className="flex flex-wrap">
         <div className="grow">

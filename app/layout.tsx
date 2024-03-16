@@ -41,7 +41,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
-        <ToastContainer className={'m-z'} />
+        <ToastContainer className={"m-z"} />
       </body>
     </html>
   );

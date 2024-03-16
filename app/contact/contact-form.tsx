@@ -10,19 +10,19 @@ export default function ContactForm() {
   const [msg, setMsg] = useState("");
   const [subject, setSubject] = useState("");
 
-  const onEmailChange = (e:any) => {
+  const onEmailChange = (e: any) => {
     setEmail(e.target.value);
   };
 
-  const onMsgChange = (e:any) => {
+  const onMsgChange = (e: any) => {
     setMsg(e.target.value);
   };
 
-  const onSubjectChange = (e:any) => {
+  const onSubjectChange = (e: any) => {
     setSubject(e.target.value);
   };
 
-  const sendEmail = (e:any) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
     emailjs
       .send(
