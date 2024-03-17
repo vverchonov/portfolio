@@ -87,6 +87,14 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                href="/projects"
+                className="block text-white text-2xl scale-hover"
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/404-page-you-can-type-any-url-and-get-it"
                 className="block text-white text-2xl scale-hover"
               >

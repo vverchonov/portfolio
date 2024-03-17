@@ -39,6 +39,9 @@ export default function ContactForm() {
       )
       .then(
         () => {
+          setEmail("");
+          setMsg("");
+          setSubject("");
           toast.success(
             "Thank you for your request. I will get back to you in 1-3 business day(s).",
             {
@@ -71,9 +74,6 @@ export default function ContactForm() {
           );
         },
       );
-    setEmail("");
-    setMsg("");
-    setSubject("");
   };
 
   return (
