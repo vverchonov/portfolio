@@ -1,7 +1,10 @@
+"use client";
 import PageHolder from "../components/page-holder";
+import ScrollingCanvas from "./ScrollingCanvas";
 
 export default function ProjectsPage() {
   return (
+    // <ScrollingCanvas/>
     <PageHolder>
       <h1 className="text-3xl text-center mb-4 font-semibold">Projects</h1>
       <div
