@@ -5,7 +5,11 @@ import { Project } from "./project";
 export default function ProjectsPage() {
   return (
     <PageHolder>
-      <h1 className="text-3xl text-center mb-4 font-semibold">Projects</h1>
+      <h1 className="text-3xl text-center mb-2 font-semibold">Projects</h1>
+      <p className="text-sm mb-4 text-center">
+        All project were completed to meet requirments, designs and ideas
+        provided by clients.
+      </p>
       <div className="flex-container">
         <Project
           projectName={"SMOKING BEAR($MOB)"}
