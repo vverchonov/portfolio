@@ -1,4 +1,6 @@
+import Link from "next/link";
 import PageHolger from "./components/page-holder";
+import Button from "./components/button";
 
 export default function AboutMe() {
   return (
@@ -24,7 +26,7 @@ export default function AboutMe() {
         high standards, adaptability, and effective communication defines my
         professional ethos.
       </p>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap mb-4">
         <div className="grow">
           <h2 className="text-2xl mb-2 font-semibold">Front End</h2>
           <ul className="">
@@ -58,6 +60,11 @@ export default function AboutMe() {
             <li className=" text-xl"> - Postman</li>
           </ul>
         </div>
+      </div>
+      <div className="flex w-full justify-center">
+        <Link href={"/projects"}>
+          <Button text="SEE MY PROJECTS" />
+        </Link>
       </div>
     </PageHolger>
   );

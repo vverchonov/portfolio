@@ -7,6 +7,7 @@ import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import Background from "./components/background";
 import Script from "next/script";
+import { MotionConfig } from "framer-motion";
 
 export const metadata: Metadata = {
   title: "Viacheslav's Portfolio",
@@ -38,7 +39,9 @@ export default function RootLayout({
       <body className="flex-col">
         <Navbar />
         <Background />
+
         {children}
+
         <Footer />
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
         <ToastContainer className={"m-z"} />
