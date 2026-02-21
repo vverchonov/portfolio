@@ -15,7 +15,7 @@ export default function Footer() {
         </Link>
         <Link
           className="scale-hover"
-          href="https://drive.google.com/file/d/10iQh9-wnpBgQxl3FbOhk0E6Tuw--4pAi/view?usp=sharing"
+          href="https://docs.google.com/document/d/1Qf0K6BTLIL2jP5-fV8r8rOVxNUdtxWoNNphFzHTkMSA/edit?usp=sharing"
           rel="noopener noreferrer"
           target="_blank"
         >
