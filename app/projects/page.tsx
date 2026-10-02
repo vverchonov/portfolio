@@ -11,6 +11,14 @@ export default function ProjectsPage() {
         provided by clients.
       </p>
       <div className="flex-container">
+        <Project
+          href={"https://www.nikovinterior.com/"}
+          projectName={"NIKOV INTERIOR"}
+          img={"./test"}
+          projectDescription={
+            "NextJS landing page for a commercial interior design studio. Built with Tailwind CSS, featuring a full-screen hero image carousel, project gallery, design package pricing, and a contact form with file uploads. Includes SEO optimization with structured data, Open Graph metadata, and Google Tag Manager. Application is mobile friendly. Hosted via Vercel, version controlled with Git."
+          }
+        />
       <Project
           href={"https://www.stackedburger.ca/"}
           projectName={"STACKED BURGER"}
