@@ -11,6 +11,38 @@ export default function ProjectsPage() {
         provided by clients.
       </p>
       <div className="flex-container">
+        <Project
+          href={"https://www.chickpz.com/"}
+          projectName={"CHICKPZ"}
+          img={"./test"}
+          projectDescription={
+            "React restaurant website for a London, ON Mediterranean kitchen. Built with Tailwind CSS and hosted on Vercel. Includes a full menu, catering, careers, and franchise pages, online ordering, location and hours, and structured data for SEO. Application is mobile friendly."
+          }
+        />
+        <Project
+          href={"https://www.theroads.ca/"}
+          projectName={"THE ROADS"}
+          img={"./test"}
+          projectDescription={
+            "Next.js website for a Toronto private transportation company. Covers airport transfers, city rides, hourly service, and a sober driver option, with online booking, a contact form, and a map. Hosted on Vercel. Application is mobile friendly."
+          }
+        />
+        <Project
+          href={"https://napmaster.dev/"}
+          projectName={"NAPMASTER"}
+          img={"./test"}
+          projectDescription={
+            "Next.js product site for a VPS and proxy hosting service. Features plan comparison, a custom server configurator, proxy packages, a shopping cart, and account sign-in. Built with Tailwind CSS and hosted on Vercel. Application is mobile friendly."
+          }
+        />
+        <Project
+          href={"https://www.nikovinterior.com/"}
+          projectName={"NIKOV INTERIOR"}
+          img={"./test"}
+          projectDescription={
+            "Next.js marketing site for a commercial interior design studio. Showcases a project gallery, design packages, and a contact form with file uploads. Built with Tailwind CSS, optimized images, and SEO metadata. Hosted on Vercel. Application is mobile friendly."
+          }
+        />
       <Project
           href={"https://www.stackedburger.ca/"}
           projectName={"STACKED BURGER"}
