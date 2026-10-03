@@ -4,11 +4,11 @@ import { useMemo } from "react";
 import Marquee from "react-fast-marquee";
 
 const words = [
-  " React Redux NextJS Typescript ",
-  " Express.js Node.js ",
+  " React 19 TypeScript Next.js ",
+  " Ruby on Rails PostgreSQL ",
   " Java Spring Boot ",
-  " Tailwind Bootstrap Animations ",
-  " Docker AWS Ngix ",
+  " Tailwind Material UI ",
+  " Docker GitHub Actions AWS ",
 ];
 
 export default function Background() {
